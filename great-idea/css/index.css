@@ -140,46 +140,29 @@ header nav a {
 .main-content-top {
 	margin: 40px auto;
 	display: flex;
-	flex-wrap: wrap;
+	flex-wrap: nowrap;
+	justify-content: space-between;
 }
 
 .main-content-bottom {
 	margin: 40px auto;
 	display: flex;
-	flex-wrap: wrap;
+	flex-wrap: nowrap;
+	justify-content: space-between;
 }
 
-.main-content-top p {
+.top-sub-section {
 	width: 380px;
-}
-
-.about {
-	margin-left: 146px;
-}
-
-.child {
-	margin-left: 116px;
+	height: 106px;
 }
 
 .main-content-top h3 {
-	width: 350px;
 	font-size: 20px;
 }
 
-.main-content-bottom p {
+.bottom-sub-section {
 	width: 250px;
-}
-
-.main-content-bottom h3 {
-	width: 200px;
-}
-
-.bottom-title {
-	margin-left: 113px;
-}
-
-.bottom-info {
-	margin-left: 63px;
+	height: 160px;
 }
 
 footer {
