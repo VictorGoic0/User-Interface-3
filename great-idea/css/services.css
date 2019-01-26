@@ -65,8 +65,8 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 body {
-	width: 876px;
-	margin-left: 500px;
+	width: 880px;
+  margin: auto auto;
 }
 
 header nav {
@@ -74,40 +74,28 @@ header nav {
 }
 
 .logo {
-	margin-left: 10px;
-	position: relative;
-	top: 8px;
+	margin-left: 14px;
+  position: relative;
+  top: 10px;
 }
 
-.title {
-	height: 260px;
-	width: 497px;
-	display: flex;
-	flex-wrap: wrap;
-	margin-top: 50px;
+.services-header-img {
+  margin: 50px auto;
 }
 
 h1 {
-	font-size: 60px;
-	text-align: center;
-	margin: 0 125px;
+	font-size: 30px;
 }
 
-.top-section {
-	margin: 60px auto 10px auto;
-	display: flex;
-	flex-wrap: nowrap;
-	justify-content: space-between;
-}
-
-.top-section button {
+button {
 	padding: 10px 40px;
 	border: 1px solid black;
-	margin: 0 170px;
 	background-color: white;
 	height: 40px;
 	width: 152px;
-	align-self: center;
+  position: relative;
+  top: 18px;
+  border-radius: 6px;
 }
 
 @keyframes colorchange {
@@ -116,7 +104,7 @@ h1 {
   from {color: black;}
   to {color: white;}
 }
-.top-section button:hover {
+button:hover {
 	background: white;
 	color: black;
 	animation-name: colorchange;
@@ -124,7 +112,7 @@ h1 {
 	animation-fill-mode: forwards;
 }
 
-header nav a {
+.anchor {
 	color: white;
 	margin-right: 38px;
 	text-decoration: none;
@@ -134,54 +122,53 @@ header nav a {
 	background-color: black;
 }
 
-.top-section {
-	display: flex;
-}
 
 .main-content {
+  display: flex;
 	border-top: solid 1px black;
-	border-bottom: solid 1px black;
-	height: 600px;
-	margin: 36px auto 20px auto;
+	border-bottom: solid 2px black;
+	height: 1000px;
+	margin: 36px auto auto auto;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
-.main-content-top {
-	margin: 40px auto;
-	display: flex;
-	flex-wrap: nowrap;
-	justify-content: space-between;
+.sub-section {
+  height: 260px;
+  width: 420px;
+  padding: 26px;
+  background-color: #EAEAEA;
+  border: solid 1px black;
 }
 
-.main-content-bottom {
-	margin: 40px auto;
-	display: flex;
-	flex-wrap: nowrap;
-	justify-content: space-between;
+.sub-margin {
+  margin-top: 60px;
 }
 
-.top-sub-section {
-	width: 380px;
-	height: 106px;
-}
-
-.main-content-top h3 {
+h2 {
 	font-size: 20px;
 }
 
-.bottom-sub-section {
-	width: 250px;
-	height: 160px;
+p {
+  font-weight: 500;
+  line-height: 20px;
 }
 
-footer {
-	margin-top: 40px;
+li {
+  line-height: 20px;
+  margin-top: 20px;
 }
 
-h3 {
-	font-size: 20px;
+.bottom-content {
+  display: flex;
+  margin: 40px auto;
+  justify-content: space-between;
+}
+
+.bottom-content p {
+  width: 400px;
 }
 
 .copyright {
-	margin-left: 370px;
-	margin-bottom: 30px;
+  margin: 80px auto 30px 370px;
 }
